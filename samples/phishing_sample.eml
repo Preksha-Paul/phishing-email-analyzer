@@ -1,0 +1,49 @@
+Return-Path: <bounce-77@bulk-mailer.example>
+Received: from mailer.bulk-mailer.example (203.0.113.50) by mx.receiver.example; Mon, 24 Nov 2026 03:12:44 +0000
+Authentication-Results: mx.receiver.example; spf=fail smtp.mailfrom=bulk-mailer.example; dkim=none; dmarc=fail header.from=mapletrust-secure.top
+From: "security@mapletrust.example" <alerts@mapletrust-secure.top>
+Reply-To: <verify-team@account-help.example>
+To: <student@receiver.example>
+Subject: URGENT: Your Maple Trust account has been suspended
+Date: Mon, 24 Nov 2026 03:12:40 +0000
+Message-ID: <fake-001@bulk-mailer.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY_OUTER"
+
+--BOUNDARY_OUTER
+Content-Type: multipart/alternative; boundary="BOUNDARY_ALT"
+
+--BOUNDARY_ALT
+Content-Type: text/plain; charset="utf-8"
+
+Dear Customer,
+
+We detected unusual activity on your account. Your account has been suspended.
+You must verify your identity within 24 hours or your account will be closed.
+
+Verify now: http://203.0.113.50/mapletrust/login.php
+
+Maple Trust Security Team
+
+--BOUNDARY_ALT
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear Customer,</p>
+<p>We detected <b>unusual activity</b> on your account. Your account has been <b>suspended</b>.</p>
+<p>You must verify your identity <b>within 24 hours</b> or your account will be closed.</p>
+<p><a href="http://203.0.113.50/mapletrust/login.php">https://www.mapletrust.example/login</a></p>
+<p>Or use this quick link: <a href="https://bit.ly/3xMpl3">Secure login</a></p>
+<p>Maple Trust Security Team</p>
+</body></html>
+
+--BOUNDARY_ALT--
+
+--BOUNDARY_OUTER
+Content-Type: application/octet-stream; name="Account_Statement.pdf.exe"
+Content-Disposition: attachment; filename="Account_Statement.pdf.exe"
+Content-Transfer-Encoding: base64
+
+VGhpcyBpcyBhIGhhcm1sZXNzIHRlc3QgZmlsZS4gSXQgaXMgbm90IG1hbHdhcmUuCg==
+
+--BOUNDARY_OUTER--

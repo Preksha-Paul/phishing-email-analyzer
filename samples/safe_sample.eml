@@ -1,0 +1,32 @@
+Return-Path: <news@mapletrust.example>
+Received: from mail.mapletrust.example (198.51.100.10) by mx.receiver.example; Tue, 25 Nov 2026 14:02:11 +0000
+Authentication-Results: mx.receiver.example; spf=pass smtp.mailfrom=mapletrust.example; dkim=pass header.d=mapletrust.example; dmarc=pass header.from=mapletrust.example
+From: "Maple Trust Bank" <news@mapletrust.example>
+To: <student@receiver.example>
+Subject: Your November newsletter
+Date: Tue, 25 Nov 2026 14:02:05 +0000
+Message-ID: <news-1125@mapletrust.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="BOUNDARY_ALT"
+
+--BOUNDARY_ALT
+Content-Type: text/plain; charset="utf-8"
+
+Hi there,
+
+Here is your monthly newsletter with tips for saving this winter.
+Read more: https://www.mapletrust.example/newsletter/november
+
+Maple Trust Bank
+
+--BOUNDARY_ALT
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Hi there,</p>
+<p>Here is your monthly newsletter with tips for saving this winter.</p>
+<p><a href="https://www.mapletrust.example/newsletter/november">Read the newsletter</a></p>
+<p>Maple Trust Bank</p>
+</body></html>
+
+--BOUNDARY_ALT--

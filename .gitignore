@@ -1,0 +1,9 @@
+# Real emails can contain private info - keep them out of the repo.
+# Only the fake samples in samples/ are published.
+*.eml
+!samples/*.eml
+
+__pycache__/
+*.pyc
+.venv/
+.vscode/
